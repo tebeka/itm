@@ -1,15 +1,9 @@
-from distutils.core import setup, Extension
-
+from distutils.core import setup
+from Cython.Build import cythonize
 
 setup(
     name='itm',
     version='0.1.0',
-    description='Lat/lng to ITM',
-    ext_modules=[
-        Extension(
-            '_itm',
-            sources=['itm.i', 'isr84lib.cc'],
-            swig_opts=['-c++'],
-        ),
-    ],
+    description='ITM <-> WGS84 conversions',
+    ext_modules=cythonize('itm.pyx', language='c++'),
 )

@@ -2,7 +2,7 @@ all:
 	python setup.py build_ext -i
 
 clean:
-	rm -f itm_wrap.c* itm.py _itm.cpython-36m-x86_64-linux-gnu.so
+	rm -f itm_wrap.c* itm.cpp itm*.so
 	rm -rf build __pycache__
 
 fresh: clean all
