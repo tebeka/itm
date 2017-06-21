@@ -1,3 +1,6 @@
-build
-itm.cpp
 *.so
+MANIFEST
+build
+build
+dist
+itm.cpp

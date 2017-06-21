@@ -2,6 +2,8 @@
 # distutils: sources = isr84lib.cc
 cimport decl
 
+__version__ = '0.1.0'
+
 def wgs842itm(double lat, double lng):
     """Convert WGS84 lat/lng to ITM N/E"""
     cdef int N, E
