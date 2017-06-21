@@ -4,7 +4,7 @@
 
 cimport decl
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 def wgs842itm(double lat, double lng):
     """Convert WGS84 lat/lng to ITM N/E"""
