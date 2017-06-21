@@ -1,5 +1,7 @@
 # distutils: language=c++
 # distutils: sources = isr84lib.cc
+"""Convert Lat/lng to/from ITM (Israeli Transverse Mercator)"""
+
 cimport decl
 
 __version__ = '0.1.0'
