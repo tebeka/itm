@@ -1,3 +1,3 @@
 include README.md LICENSE.txt ChangeLog
-include *.pyx *.pxd
+include *.pyx *.pxd test_itm.py
 include Makefile
